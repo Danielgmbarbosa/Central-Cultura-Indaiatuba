@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff;
+}
+
+.topo {
+    text-align: center;
+    padding: 20px;
+}
+
+.topo img {
+    width: 200px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.botao-vermelho {
+    background: red;
+    color: white;
+    padding: 40px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.lista {
+    max-width: 800px;
+    margin: auto;
+}
+
+.item {
+    background: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.item img {
+    width: 120px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.detalhes {
+    max-width: 800px;
+    margin: auto;
+    background: red;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.galeria img {
+    width: 48%;
+    margin: 1%;
+}
+
+.info-boxes {
+    margin-top: 30px;
+}
+
+.info-box {
+    background: white;
+    color: black;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.info-box strong {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
