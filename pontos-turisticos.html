@@ -1,35 +1,105 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Pontos Turísticos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Central da Cultura de Indaiatuba: pontos turísticos, serviços de saúde e mapa da cidade.">
+    <title>Pontos turísticos | Central da Cultura de Indaiatuba</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <a class="skip" href="#conteudo">Pular para o conteúdo</a>
 
-<header class="topo">
-    <img src="logo.indaiatuba.png" alt="Logo">
-    <h1>Pontos Turísticos</h1>
-</header>
+    <header class="topo">
+        <div class="wrap">
+            <a class="marca" href="index.html">
+                <span class="marca-icone" aria-hidden="true">✺</span>
+                <span>Central da Cultura<br><small>Indaiatuba • SP</small></span>
+            </a>
+            <nav class="nav" aria-label="Navegação principal">
+                <a href="index.html">Início</a>
+                <a href="pontos-turisticos.html" aria-current="page">Pontos turísticos</a>
+                <a href="hospitais.html">Hospitais</a>
+                <a href="mapa.html">Mapa</a>
+            </nav>
+        </div>
+    </header>
 
-<main class="lista">
+    <main id="conteudo">
+        <section class="section wrap">
+            <h1>Pontos turísticos de Indaiatuba</h1>
+            <p class="sub">Explore lugares culturais, históricos e educativos da cidade.</p>
 
-    <a href="casarao.html" class="item">
-        <img src="casarão.indaiatuba.png" alt="Casarão do Pau Preto">
-        <span>Casarão do Pau Preto</span>
-    </a>
+            <div class="grid">
+                <!-- ========================================== -->
+                <!-- PONTO 1: Casarão Pau Preto                 -->
+                <!-- ========================================== -->
+                <article class="card">
+                    <div class="visual" aria-hidden="true">
+                        <img src="museu.png" alt="Casarão Pau Preto" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    
+                    <div class="card-content">
+                        <h2>Casarão Pau Preto</h2>
+                        <p>Patrimônio histórico da cidade, com museu e atividades culturais.</p>
+                        <a class="btn" href="casarao.html">Ver detalhes</a>
+                    </div>
+                </article>
 
-    <div class="item">
-        <img src="Museu.dágua.png" alt="Museu da Água">
-        <span>Museu da Água</span>
-    </div>
+                <!-- ========================================== -->
+                <!-- PONTO 2: Museu da Água                     -->
+                <!-- ========================================== -->
+                <article class="card">
+                    <div class="visual" aria-hidden="true">
+                        <img src="agua.png" alt="Museu da agua" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
 
-    <div class="item">
-        <img src="bosque.indaiatuba.png" alt="Bosque do Saber">
-        <span>Bosque do Saber</span>
-    </div>
+                    <div class="card-content">
+                        <h2>Museu da Água</h2>
+                        <p>Espaço de educação ambiental sobre a água e a história da região.</p>
+                        <a class="btn" href="museu-agua.html">Ver detalhes</a>
+                    </div>
+                </article>
 
-</main>
+                <!-- ========================================== -->
+                <!-- PONTO 3: Bosque do Saber                   -->
+                <!-- ========================================== -->
+                <article class="card">
+                    <div class="visual" aria-hidden="true">
+                        <img src="bosque.png" alt="Bosque do saber" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
 
+                    <div class="card-content">
+                        <h2>Bosque do Saber</h2>
+                        <p>Espaço municipal dedicado à educação ambiental.</p>
+                        <a class="btn" href="bosque.html">Ver detalhes</a>
+                    </div>
+                </article>
+
+                <!-- ========================================== -->
+                <!-- PONTO 4: Museu Ferroviário                 -->
+                <!-- ========================================== -->
+                <article class="card">
+                    <div class="visual" aria-hidden="true">
+                        <img src="ferrovia.png" alt="museu museu-ferroviario" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+
+                    <div class="card-content">
+                        <h2>Museu Ferroviário</h2>
+                        <p>Conheça parte da memória ferroviária do município.</p>
+                        <a class="btn" href="museu-ferroviario.html">Ver detalhes</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="wrap">
+            <strong>Central da Cultura de Indaiatuba</strong>
+            <p>Projeto acadêmico de inclusão digital • Atividade Extensionista II • UNINTER</p>
+            <small>Projeto independente, não oficial da Prefeitura. Confirme horários e serviços nos canais oficiais antes da visita.</small>
+        </div>
+    </footer>
 </body>
 </html>

@@ -1,30 +1,109 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<title>Central da Cultura - Indaiatuba</title>
-<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Central da Cultura de Indaiatuba: pontos turísticos, serviços de saúde e mapa da cidade.">
+    <title>Início | Central da Cultura de Indaiatuba</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <a class="skip" href="#conteudo">Pular para o conteúdo</a>
 
-<header class="topo">
-<img src="logo.indaiatuba.png" alt="Logo Indaiatuba">
-<h1>Central da cultura de Indaiatuba</h1>
-</header>
+    <header class="topo">
+        <div class="wrap">
+            <a class="marca" href="index.html">
+                <span class="marca-icone" aria-hidden="true">✺</span>
+                <span>Central da Cultura<br><small>Indaiatuba • SP</small></span>
+            </a>
+            <nav class="nav" aria-label="Navegação principal">
+                <a href="index.html" aria-current="page">Início</a>
+                <a href="pontos-turisticos.html">Pontos turísticos</a>
+                <a href="hospitais.html">Hospitais</a>
+                <a href="mapa.html">Mapa</a>
+            </nav>
+        </div>
+    </header>
 
-<main class="botoes">
-<a href="pontos-turisticos.html" class="botao-vermelho">
-    Pontos Turísticos
-</a>
+    <main id="conteudo">
+        <section class="hero">
+            <div class="wrap">
+                <span class="pill">Descubra Indaiatuba</span>
+                <h1>Cultura, turismo e informações úteis em um só lugar.</h1>
+                <p>Explore atrativos da cidade, encontre unidades de saúde e consulte o mapa de maneira simples.</p>
+                <div class="actions">
+                    <a class="btn light" href="pontos-turisticos.html">Explorar pontos turísticos</a>
+                    <a class="btn outline" href="mapa.html">Abrir mapa</a>
+                </div>
+            </div>
+        </section>
 
-<a href="#" class="botao-vermelho">
-    Mapa da Cidade
-</a>
+        <section class="section wrap">
+            <h2>O que você deseja encontrar?</h2>
 
-<a href="#" class="botao-vermelho">
-    Hospitais
-</a>
-</main>
+            <div class="grid">
+                <!-- ========================================== -->
+                <!-- OPCIONAL: Pontos Turísticos                -->
+                <!-- ========================================== -->
+                <article class="card">
+                    <div class="visual" aria-hidden="true">
+                        <!-- Se quiser colocar uma foto aqui, basta usar o modelo abaixo: -->
+                        <!-- <img src="museu.png" alt="Pontos Turísticos" style="width: 100%; height: 100%; object-fit: cover;"> -->
+                        <span style="font-size: 3rem;">🏛️</span>
+                    </div>
+                    
+                    <div class="card-content">
+                        <h2>Pontos turísticos</h2>
+                        <p>Conheça lugares e histórias de Indaiatuba.</p>
+                        <a class="btn" href="pontos-turisticos.html">Ver detalhes</a>
+                    </div>
+                </article>
 
+                <!-- ========================================== -->
+                <!-- OPCIONAL: Hospitais e Saúde                -->
+                <!-- ========================================== -->
+                <article class="card">
+                    <div class="visual" aria-hidden="true">
+                        <!-- Exemplo com imagem: <img src="hospitais.png" alt="Saúde" style="width: 100%; height: 100%; object-fit: cover;"> -->
+                        <span style="font-size: 3rem;">🏥</span>
+                    </div>
+
+                    <div class="card-content">
+                        <h2>Hospitais e saúde</h2>
+                        <p>Localize serviços de saúde e saiba onde buscar atendimento.</p>
+                        <a class="btn" href="hospitais.html">Ver detalhes</a>
+                    </div>
+                </article>
+
+                <!-- ========================================== -->
+                <!-- OPCIONAL: Mapa da Cidade                   -->
+                <!-- ========================================== -->
+                <article class="card">
+                    <div class="visual" aria-hidden="true">
+                        <!-- Exemplo com imagem: <img src="mapa.png" alt="Mapa" style="width: 100%; height: 100%; object-fit: cover;"> -->
+                        <span style="font-size: 3rem;">🗺️</span>
+                    </div>
+
+                    <div class="card-content">
+                        <h2>Mapa da cidade</h2>
+                        <p>Consulte a localização da cidade e abra rotas.</p>
+                        <a class="btn" href="mapa.html">Ver detalhes</a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="notice">
+                Esta plataforma tem finalidade informativa e educativa. Em caso de emergência médica, ligue 192 (SAMU).
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="wrap">
+            <strong>Central da Cultura de Indaiatuba</strong>
+            <p>Projeto acadêmico de inclusão digital • Atividade Extensionista II • UNINTER</p>
+            <small>Projeto independente, não oficial da Prefeitura. Confirme horários e serviços nos canais oficiais antes da visita.</small>
+        </div>
+    </footer>
 </body>
 </html>
